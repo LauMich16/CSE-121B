@@ -76,7 +76,7 @@ let templeList = [];
 
 // Step 2: Declare a function named output that accepts a list of temples as an array argument and does the following for each temple:
 // - Creates an HTML <article> element
-// - Creates an HTML <h3> element and add the temple's templeName property to it
+// - Creates an HTML <h3> element and add the temple's name property to it
 // - Creates an HTML <h4> element and add the temple's location property to it
 // - Creates an HTML <h4> element and add the temple's dedicated property to it
 // - Creates an HTML <img> element and add the temple's imageUrl property to the src attribute and the temple's templeName property to the alt attribute
@@ -89,7 +89,7 @@ const output = (temples) => {
             let article = document.createElement('article');
 
             let templeName = document.createElement('h3');
-            templeName.textContent = temple.templeName;
+            templeName.textContent = temple.name;
 
             let location = document.createElement('h4');
             location.textContent = temple.location;
@@ -99,7 +99,7 @@ const output = (temples) => {
 
             let img = document.createElement('img');
             img.setAttribute('src', temple.imageUrl);
-            img.setAttribute('alt', temple.templeName);
+            img.setAttribute('alt', temple.name);
 
             article.appendChild(templeName);
             article.appendChild(location);
@@ -157,8 +157,8 @@ const sortBy = () => {
         case 'templeNameAscending':
             output(templeList.sort(
                 (temple1, temple2) => {
-                    let templeName1 = temple1.templeName.toLowerCase();
-                    let templeName2 = temple2.templeName.toLowerCase();
+                    let templeName1 = temple1.name.toLowerCase();
+                    let templeName2 = temple2.name.toLowerCase();
                     if (templeName1 < templeName2) return -1;
                     else if (templeName1 > templeName2) return 1;
                     else return 0;
@@ -167,8 +167,8 @@ const sortBy = () => {
         case 'templeNameDescending':
             output(templeList.sort(
                 (temple1, temple2) => {
-                    let templeName1 = temple1.templeName.toLowerCase();
-                    let templeName2 = temple2.templeName.toLowerCase();
+                    let templeName1 = temple1.name.toLowerCase();
+                    let templeName2 = temple2.name.toLowerCase();
                     if (templeName1 > templeName2) return -1;
                     else if (templeName1 < templeName2) return 1;
                     else return 0;
@@ -178,8 +178,8 @@ const sortBy = () => {
             // using ternary operators
             output(templeList.sort(
                 (temple1, temple2) => 
-                temple1.templeName.toLowerCase() > temple2.templeName.toLowerCase() ? 1 : 
-                    temple2.templeName.toLowerCase() > temple1.templeName.toLowerCase() ? -1 : 0));
+                temple1.name.toLowerCase() > temple2.name.toLowerCase() ? 1 : 
+                    temple2.name.toLowerCase() > temple1.name.toLowerCase() ? -1 : 0));
             break;
     }
 }
