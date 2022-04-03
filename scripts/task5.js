@@ -132,7 +132,7 @@ const output = (temples) => {
 //    });
 
 // Step 7: Finally, call the output function and pass it the list of temples
-fetch('BYUI/2022/JavaScript/Week 6/scripts/task6.json')
+fetch('https://laumich16.github.io/CSE-121B/scripts/task6.json')
     .then(response => response.json())
     .then(temples => {
         templeList = temples;
