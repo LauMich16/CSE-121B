@@ -1,57 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Meet My Family</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mi Familia</title>
-    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-
-<body>
-    <nav>
-        <ul id="menu">
-            <li><a id="toggleMenu">&equiv;</a></li>
-            <li><a href="../../week01/provided_solution">Home</a></li>
-            <li><a href="../../week02/provided_solution">Lesson 2</a></li>
-            <li><a href="../../week03/provided_solution">Lesson 3</a></li>
-            <li><a href="../../week04/provided_solution">Lesson 4</a></li>
-            <li><a href="#" class="active">Lesson 5</a></li>
-        </ul>
-    </nav>
+  <body>
     <header>
-        <h1>Familia Lanuza</h1>
+      <h1>Familia Lanuza</h1>
+      <h3>
+        <span id="message1"></span>
+      </h3>
     </header>
     <main>
-        <section>
-            <h2>
-                Today is <span id="message2"></span>.
-            </h2>
-            <h3>
-                <span id="message1"></span>
-            </h3>
-        </section>
-        <hr>
-        <section>
-            <h2>Family Members</h2>
-            <p>
-                Sort by: 
-                <select id="sortBy">
-                    <option value="templeNameAscending">Initial Ascending</option>
-                    <option value="templeNameDescending">Initial Descending</option>
-                </select>
-            </p>
-            <div id="temples">
-            </div>
-        </section>
+      <hr />
+      <section>
+        <h2>Family Members</h2>
+        <p>
+          Sort by:
+          <select id="sortBy">
+            <option value="">Select an Option</option>
+            <option value="nameMembersAscending">Initial Ascending</option>
+            <option value="nameMembersDescending">Initial Descending</option>
+          </select>
+        </p>
+        <div id="famMembers"></div>
+      </section>
     </main>
     <footer>
-        &copy;<span id="year"></span> | Final Project | CSE 121B
+      &copy;<span id="year"></span> | Final Project | CSE 121B
+      <section>
+        <h2>Today is <span id="message2"></span>.</h2>
+      </section>
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/task5.js"></script>
-</body>
-
+    <script src="scripts/task6.js"></script>
+  </body>
 </html>

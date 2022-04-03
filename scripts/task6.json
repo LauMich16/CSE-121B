@@ -1,44 +1,44 @@
 [
-    {
-        "name": "Edwin Wilfredo Lanuza",
-        "preferedName": "Wilfredo",
-        "birthday": "1 May 1965",
-        "imageUrl": "https://laumich16.github.io/CSE-121B/images/wilfredo.jpg"
-    },
-    {
-        "name": "Maritza Marlen Lanuza",
-        "preferedName": "Maritza",
-        "birthday": "24 February 1968",
-        "imageUrl": "https://laumich16.github.io/CSE-121B/images/maritza.jpg"
-    },
-    {
-        "name": "Laura Michelle Lanuza",
-        "preferedName": "Michelle",
-        "birthday": "16 June 1992",
-        "imageUrl": "https://laumich16.github.io/CSE-121B/images/laura.jpg"
-    },
-    {
-        "name": "Darlyn Stephanie Lanuza",
-        "preferedName": "Darlyn",
-        "birthday": "19 January 1994",
-        "imageUrl": "https://laumich16.github.io/CSE-121B/images/darlyn.jpg"
-    },
-    {
-        "name": "Jennifer Dianne Lanuza",
-        "preferedName": "Jennifer",
-        "birthday": "3 May 1996",
-        "imageUrl": "https://laumich16.github.io/CSE-121B/images/jennifer.jpg"
-    },
-    {
-        "name": "Mark Wilfred Lanuza",
-        "preferedName": "Mark",
-        "birthday": "28 March 1998",
-        "imageUrl": "https://laumich16.github.io/CSE-121B/images/mark.jpg"
-    },
-    {
-        "name": "Jeffrey Ernesto Lanuza",
-        "preferedName": "Jeffrey",
-        "birthday": "25 May 2002",
-        "imageUrl": "https://laumich16.github.io/CSE-121B/images/jeffrey.jpg"
-    }
+  {
+    "name": "Edwin Wilfredo Lanuza",
+    "preferedName": "Wilfredo",
+    "birthday": "1 May 1965",
+    "imageUrl": "https://laumich16.github.io/CSE-121B/images/wilfredo.jpg"
+  },
+  {
+    "name": "Maritza Marlen Lanuza",
+    "preferedName": "Maritza",
+    "birthday": "24 February 1968",
+    "imageUrl": "https://laumich16.github.io/CSE-121B/images/maritza.jpg"
+  },
+  {
+    "name": "Laura Michelle Lanuza",
+    "preferedName": "Michelle",
+    "birthday": "16 June 1992",
+    "imageUrl": "https://laumich16.github.io/CSE-121B/images/laura.jpg"
+  },
+  {
+    "name": "Darlyn Stephanie Lanuza",
+    "preferedName": "Darlyn",
+    "birthday": "19 January 1994",
+    "imageUrl": "https://laumich16.github.io/CSE-121B/images/darlyn.jpg"
+  },
+  {
+    "name": "Jennifer Dianne Lanuza",
+    "preferedName": "Jennifer",
+    "birthday": "3 May 1996",
+    "imageUrl": "https://laumich16.github.io/CSE-121B/images/jennifer.jpg"
+  },
+  {
+    "name": "Mark Wilfred Lanuza",
+    "preferedName": "Mark",
+    "birthday": "28 March 1998",
+    "imageUrl": "https://laumich16.github.io/CSE-121B/images/mark.jpg"
+  },
+  {
+    "name": "Jeffrey Ernesto Lanuza",
+    "preferedName": "Jeffrey",
+    "birthday": "25 May 2002",
+    "imageUrl": "https://laumich16.github.io/CSE-121B/images/jeffrey.jpg"
+  }
 ]
